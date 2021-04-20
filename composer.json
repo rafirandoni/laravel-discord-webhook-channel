@@ -1,0 +1,19 @@
+{
+    "name": "rafirandoni/laravel-discord-webhook-channel",
+    "description": "Discord webhook notification channel for laravel",
+    "type": "library",
+    "require": {
+        "psr/http-client": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Mohamad Rafi",
+            "email": "rafi.randoni@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RafiRandoni\\DiscordWebhookChannel\\": "src/"
+        }
+    }
+}
