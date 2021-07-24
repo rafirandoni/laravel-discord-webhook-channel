@@ -49,7 +49,7 @@ class Embed
         return $this;
     }
 
-    public function setField(string $name, string $value, boolean $inline = false)
+    public function setField(string $name, string $value, bool $inline = false)
     {
         $this->fields[] = [
             'name' => $name,
